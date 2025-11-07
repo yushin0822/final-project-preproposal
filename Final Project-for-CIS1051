@@ -1,0 +1,30 @@
+# Proposal
+What will (likely) be the title of your project?
+COVID-19 vaccination progress tracker.
+
+In just a sentence or two, summarize your project. (E.g., "A website that lets you buy and sell stocks.")
+A tracker to show country or region comparison, visulize the data through bar chart or line chart.
+
+In a paragraph or more, detail your project. What will your software do? What features will it have? How will it be executed?
+The purpose of the project is to visulaize and analyze the progress of global and regional COVID-19 vaccination efforts over time. The program will load vaccination data and display it, allows users to explore trends, compare countries. Key feautres will include a global overview showing total doses and percentage of population vaccinated, interactive charts tracking vaccination rates over time.
+
+The software will be executed as a Streamlit web application, meaning users can run it locally using the command streamlit run app.py and interact with it through their browers. Visulizations will be powered by matplotlib, while Pandas will handle data loading and cleaning.
+
+If planning to combine 1051's final project with another course's final project, with which other course? And which aspect(s) of your proposed project would relate to 1051, and which aspect(s) would relate to the other course?
+I think the course will be STAT 1101, which is Introduction to Statistical and Data Analysis. The CIS 1051 will focus on programming and software development, while STAT 1101 will focus on data analysis and interpretation aspects, including calculate vaccination rates, analyzing correlations between vaccination coverage and infection rates, and interpreting statistical trends over time.
+
+If planning to collaborate with 1 or 2 classmates for the final project, list their names, email addresses, and the names of their assigned TAs below.
+CHun De Yu tuu@temple.edu TA's name: Maryam Amr
+
+In the world of software, most everything takes longer to implement than you expect. And so it's not uncommon to accomplish less in a fixed amount of time than you hope.
+In a sentence (or list of features), define a GOOD outcome for your final project. I.e., what WILL you accomplish no matter what?
+Data cleaning, write the structure of the software and make sure it can run it.
+
+In a sentence (or list of features), define a BETTER outcome for your final project. I.e., what do you THINK you can accomplish before the final project's deadline?
+Well visulize the data and trends, showing the results of certain region.
+
+In a sentence (or list of features), define a BEST outcome for your final project. I.e., what do you HOPE to accomplish before the final project's deadline?
+Add dashboard features, to elaborate to a real web application or mobile app.
+
+In a paragraph or more, outline your next steps. What new skills will you need to acquire? What topics will you need to research? If working with one of two classmates, who will do what?
+TODO
