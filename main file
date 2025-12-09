@@ -1,0 +1,25 @@
+import pandas as pd
+import sys
+import numpy as np
+import matplotlib.pyplot as plt
+
+df1 = pd.read_excel('datasets.xlsx', engine='openpyxl')
+df2 = pd.read_excel('Dataset.xlsx', engine='openpyxl')
+
+print(df1.head())
+print(df2.head())
+
+
+merged_df = pd.merge(df1, df2, on='location')
+
+
+plt.figure(figsize=(10, 6))
+plt.plot(merged_df['location'], merged_df['people_vaccinated'], label='people_vaccinated')
+plt.plot(merged_df['location'], merged_df['Positive Cases'], label='Positive Cases')
+
+plt.title('different location relationship with positive cases')
+plt.xlabel('location')
+plt.ylabel('Positive Cases')
+plt.legend()
+plt.grid(True)
+plt.show()
